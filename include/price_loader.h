@@ -9,6 +9,4 @@ struct PricePoint
 	double close;
 };
 
-std::vector<PricePoint> loadPricesFromCsv(
-	const std::string& filePath
-);
+std::vector<PricePoint> loadPricesFromCsv(const std::string& filePath);
