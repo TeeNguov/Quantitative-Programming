@@ -1,0 +1,80 @@
+
+# ===================================
+# C++ Compiled Files
+# ===================================
+*.obj
+*.o
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.ipch
+*.tlog
+*.lastbuildstate
+
+# ===================================
+# Build Directories
+# ===================================
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+out/
+
+# ===================================
+# Visual Studio 2022
+# ===================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+
+# ===================================
+# CMake (Future Use)
+# ===================================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# ===================================
+# Temporary Files
+# ===================================
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+
+# ===================================
+# Python (Future Quant Integration)
+# ===================================
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# ===================================
+# OS Files
+# ===================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===================================
+# Local Environment / Secrets
+# ===================================
+.env
+.env.*
+!.env.example
